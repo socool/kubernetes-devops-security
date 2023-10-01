@@ -31,7 +31,7 @@ pipeline {
             withSonarQubeEnv('SonarQube'){
               sh '''
                 mvn sonar:sonar \
-                -Dsonar.projectKey=numeric-application-2 \
+                -Dsonar.projectKey=numeric-application \
                 -Dsonar.host.url=http://34.87.96.252:9000 \
               '''
             }
