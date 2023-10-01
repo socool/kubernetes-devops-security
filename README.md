@@ -2,6 +2,12 @@
 
 ## Fork and Clone this Repo
 
+## Jenkins Installation
+
+if found error then run this
+
+`sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys [KEY_ID]`
+
 ## Clone to Desktop and VM
 
 ## NodeJS Microservice - Docker Image -
@@ -17,6 +23,10 @@
 `kubectl expose deploy node-app --name node-service --port 5000 --type ClusterIP`
 
 `curl node-service-ip:5000/plusone/99`
+
+## Install SonarQube
+
+`docker run -d --name sonarqube -e SONAR_ES_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest`
 
 ## Talisman Installation
 
