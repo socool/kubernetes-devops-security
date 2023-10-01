@@ -2,6 +2,12 @@
 
 ## Fork and Clone this Repo
 
+## Jenkins Installation
+
+if found error then run this
+
+`sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys [KEY_ID]`
+
 ## Clone to Desktop and VM
 
 ## NodeJS Microservice - Docker Image -
