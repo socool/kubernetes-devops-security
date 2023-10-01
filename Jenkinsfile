@@ -33,7 +33,6 @@ pipeline {
                 mvn sonar:sonar \
                   -Dsonar.projectKey=numeric-application \
                   -Dsonar.host.url=http://34.87.96.252:9000 \
-                  -Dsonar.login=3b2c229a6cf72fbf2927ade4a226e75f7faa5de5
               '''
             }
             timeout(time: 2, unit: 'MINUTES'){
