@@ -24,6 +24,10 @@ if found error then run this
 
 `curl node-service-ip:5000/plusone/99`
 
+## Install SonarQube
+
+`docker run -d --name sonarqube -e SONAR_ES_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest`
+
 ## Talisman Installation
 
 `curl https://thoughtworks.github.io/talisman/install.sh > ~/install-talisman.sh`
